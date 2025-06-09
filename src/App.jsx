@@ -11,6 +11,7 @@ import Cart from "./components/CartPage";
 import Mens from "./components/Mens";
 import ProductList from "./components/ProductList";
 import Register from "./pages/Register";
+import Contact from "./components/Contact";
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/profile" element={<h1>Profile Page</h1>} />
         </Route>
         <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact/>} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/cart" element={<Cart />}/>
         <Route path="/men" element={<Mens />}/>

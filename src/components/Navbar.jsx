@@ -33,7 +33,8 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-gray-300">Home</Link>
             <Link to="/shop" className="hover:text-gray-300">Shop</Link>
-            <Link to="/deals" className="hover:text-gray-300">Deals</Link>
+           
+           
             <Link to="/contact" className="hover:text-gray-300">Contact</Link>
           </div>
 
